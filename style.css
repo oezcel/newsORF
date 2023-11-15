@@ -1,0 +1,121 @@
+/* body */
+body{
+    margin: 0;
+    max-width: 1000;
+    align-self: center;
+}
+main:first-child{
+    padding: 1000px;
+}
+/* text typ und farbe */
+@font-face {
+    font-family: SourceSans3;
+    src: url(SourceSans3-VariableFont_wght.ttf);
+}
+a, p, h1{
+    font-family: SourceSans3;
+}
+p, a{
+    font-weight: 400;
+}
+h1{
+    font-weight: 800;
+}
+a, section.blue h1, section.blue p{
+    color: aliceblue;
+}
+
+
+/* logo */
+img#logo{
+
+
+    margin-left: 3,5em;
+    padding-right: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+     max-width: 18em;
+    
+}
+
+
+
+
+/* background */
+nav{
+    background-color: #16416B;
+    
+}
+nav td:last-of-type{
+    width: 1000px;
+}
+section.blue{
+    background-color: steelblue;
+}
+/* img1 */
+img#img1{
+    
+    width: 100%;
+    height: auto;
+    
+    
+}
+/* artikel */
+article{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+h1.title{
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+/* nav */
+td.nav a{
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    text-decoration: solid;
+    font-size: larger;
+    font-weight: 900;
+}
+td.nav a:hover{
+    background-color: #16416B;
+}
+nav#topnav{
+    position: fixed;
+
+}
+
+/* putin */
+img#putin{
+    max-width: 13em;
+    max-height:100%;
+    margin-left: 2em;
+}
+#putintable:nth-child(2){
+    margin-left: 5,5em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 1%;
+    white-space: flex;
+}
+#putintable:first-child{
+    border-left: 10px solid dodgerblue;
+}
+section#putin{
+    background-color: #ecf5ff;
+}
+#putintable td{
+    margin-left: 3,5em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+#welt{
+    color: blue;
+}
+
+
